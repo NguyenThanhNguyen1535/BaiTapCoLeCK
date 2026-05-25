@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Thu3_LTTQ\\KeThuaFn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|d:\\thu3_lttq\\kethuafn\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|d:\\thu3_lttq\\kethuafn\\giaodich.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|solutionrelative:giaodich.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|d:\\thu3_lttq\\kethuafn\\giaodichmuamathe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|solutionrelative:giaodichmuamathe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|d:\\thu3_lttq\\kethuafn\\khachhang.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|solutionrelative:khachhang.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|d:\\thu3_lttq\\kethuafn\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|d:\\thu3_lttq\\kethuafn\\thedienthoai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|solutionrelative:thedienthoai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|d:\\thu3_lttq\\kethuafn\\nhanvien.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|solutionrelative:nhanvien.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|d:\\thu3_lttq\\kethuafn\\giaodichnapdienthoai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A0216D84-B3DB-A748-8C88-DC5D304C874C}|KeThuaFn.vbproj|solutionrelative:giaodichnapdienthoai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KhachHang.vb",
+              "DocumentMoniker": "D:\\Thu3_LTTQ\\KeThuaFn\\KhachHang.vb",
+              "RelativeDocumentMoniker": "KhachHang.vb",
+              "ToolTip": "D:\\Thu3_LTTQ\\KeThuaFn\\KhachHang.vb",
+              "RelativeToolTip": "KhachHang.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-18T04:30:24.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "D:\\Thu3_LTTQ\\KeThuaFn\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "D:\\Thu3_LTTQ\\KeThuaFn\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-18T02:10:37.311Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "D:\\Thu3_LTTQ\\KeThuaFn\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "D:\\Thu3_LTTQ\\KeThuaFn\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowHQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-18T03:37:16.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GiaoDich.vb",
+              "DocumentMoniker": "D:\\Thu3_LTTQ\\KeThuaFn\\GiaoDich.vb",
+              "RelativeDocumentMoniker": "GiaoDich.vb",
+              "ToolTip": "D:\\Thu3_LTTQ\\KeThuaFn\\GiaoDich.vb",
+              "RelativeToolTip": "GiaoDich.vb",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-18T04:31:11.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GiaoDichMuaMaThe.vb",
+              "DocumentMoniker": "D:\\Thu3_LTTQ\\KeThuaFn\\GiaoDichMuaMaThe.vb",
+              "RelativeDocumentMoniker": "GiaoDichMuaMaThe.vb",
+              "ToolTip": "D:\\Thu3_LTTQ\\KeThuaFn\\GiaoDichMuaMaThe.vb",
+              "RelativeToolTip": "GiaoDichMuaMaThe.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-18T04:34:48.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhanVien.vb",
+              "DocumentMoniker": "D:\\Thu3_LTTQ\\KeThuaFn\\NhanVien.vb",
+              "RelativeDocumentMoniker": "NhanVien.vb",
+              "ToolTip": "D:\\Thu3_LTTQ\\KeThuaFn\\NhanVien.vb",
+              "RelativeToolTip": "NhanVien.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-18T04:30:21.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TheDienThoai.vb",
+              "DocumentMoniker": "D:\\Thu3_LTTQ\\KeThuaFn\\TheDienThoai.vb",
+              "RelativeDocumentMoniker": "TheDienThoai.vb",
+              "ToolTip": "D:\\Thu3_LTTQ\\KeThuaFn\\TheDienThoai.vb",
+              "RelativeToolTip": "TheDienThoai.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-18T04:40:39.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiaoDichNapDienThoai.vb",
+              "DocumentMoniker": "D:\\Thu3_LTTQ\\KeThuaFn\\GiaoDichNapDienThoai.vb",
+              "RelativeDocumentMoniker": "GiaoDichNapDienThoai.vb",
+              "ToolTip": "D:\\Thu3_LTTQ\\KeThuaFn\\GiaoDichNapDienThoai.vb",
+              "RelativeToolTip": "GiaoDichNapDienThoai.vb",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-18T04:36:24.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

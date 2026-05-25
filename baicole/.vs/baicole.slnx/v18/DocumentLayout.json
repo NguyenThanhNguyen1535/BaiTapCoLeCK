@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ai\\baicole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DFDE848-FE88-3B9D-8C1F-17B467E413D8}|baicole.vbproj|d:\\ai\\baicole\\capnhathoadon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3DFDE848-FE88-3B9D-8C1F-17B467E413D8}|baicole.vbproj|solutionrelative:capnhathoadon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DFDE848-FE88-3B9D-8C1F-17B467E413D8}|baicole.vbproj|d:\\ai\\baicole\\capnhathoadon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3DFDE848-FE88-3B9D-8C1F-17B467E413D8}|baicole.vbproj|solutionrelative:capnhathoadon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DFDE848-FE88-3B9D-8C1F-17B467E413D8}|baicole.vbproj|d:\\ai\\baicole\\capnhatchitiethoadon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3DFDE848-FE88-3B9D-8C1F-17B467E413D8}|baicole.vbproj|solutionrelative:capnhatchitiethoadon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CapNhatHoaDon.vb",
+              "DocumentMoniker": "D:\\Ai\\baicole\\CapNhatHoaDon.vb",
+              "RelativeDocumentMoniker": "CapNhatHoaDon.vb",
+              "ToolTip": "D:\\Ai\\baicole\\CapNhatHoaDon.vb",
+              "RelativeToolTip": "CapNhatHoaDon.vb",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAcwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-23T16:04:26.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CapNhatChiTietHoaDon.vb [Design]",
+              "DocumentMoniker": "D:\\Ai\\baicole\\CapNhatChiTietHoaDon.vb",
+              "RelativeDocumentMoniker": "CapNhatChiTietHoaDon.vb",
+              "ToolTip": "D:\\Ai\\baicole\\CapNhatChiTietHoaDon.vb [Design]",
+              "RelativeToolTip": "CapNhatChiTietHoaDon.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-23T16:03:34.044Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CapNhatHoaDon.vb [Design]",
+              "DocumentMoniker": "D:\\Ai\\baicole\\CapNhatHoaDon.vb",
+              "RelativeDocumentMoniker": "CapNhatHoaDon.vb",
+              "ToolTip": "D:\\Ai\\baicole\\CapNhatHoaDon.vb [Design]",
+              "RelativeToolTip": "CapNhatHoaDon.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-23T15:53:40.439Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+D:\Thu3_LTTQ\KeThuaFn\bin\Debug\net10.0-windows\KeThuaFn.exe
+D:\Thu3_LTTQ\KeThuaFn\bin\Debug\net10.0-windows\KeThuaFn.deps.json
+D:\Thu3_LTTQ\KeThuaFn\bin\Debug\net10.0-windows\KeThuaFn.runtimeconfig.json
+D:\Thu3_LTTQ\KeThuaFn\bin\Debug\net10.0-windows\KeThuaFn.dll
+D:\Thu3_LTTQ\KeThuaFn\bin\Debug\net10.0-windows\KeThuaFn.pdb
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.Form1.resources
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.vbproj.GenerateResource.cache
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.AssemblyInfoInputs.cache
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.AssemblyInfo.vb
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.vbproj.CoreCompileInputs.cache
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.dll
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\refint\KeThuaFn.dll
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.pdb
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\KeThuaFn.genruntimeconfig.cache
+D:\Thu3_LTTQ\KeThuaFn\obj\Debug\net10.0-windows\ref\KeThuaFn.dll
