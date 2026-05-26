@@ -212,7 +212,7 @@ Partial Class BaoCaoDoanhThu
         Controls.Add(dtpTuNgay)
         Controls.Add(dgvGiaoDich)
         Name = "BaoCaoDoanhThu"
-        Text = "NguyenThanhNguyen"
+        Text = "NguyenThanhNguyen_31_Nhom11"
         CType(dgvGiaoDich, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

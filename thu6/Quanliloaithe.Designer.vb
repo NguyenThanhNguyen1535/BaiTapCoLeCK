@@ -250,7 +250,7 @@ Partial Class Quanliloaithe
         Controls.Add(btnSua)
         Controls.Add(btnThem)
         Name = "Quanliloaithe"
-        Text = "NguyenThanhNguyen"
+        Text = "NguyenThanhNguyen_31_Nhom11"
         CType(dgvLoaiThe, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

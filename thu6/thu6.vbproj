@@ -11,6 +11,8 @@
   <ItemGroup>
     <None Remove="ReportDoanhThu.rdlc" />
     <None Remove="ReportGiaoDich.rdlc" />
+    <None Remove="ReportKhachHang.rdlc" />
+    <None Remove="ReportLoaiThe.rdlc" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +20,8 @@
     <EmbeddedResource Include="ReportGiaoDich.rdlc">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReportKhachHang.rdlc" />
+    <EmbeddedResource Include="ReportLoaiThe.rdlc" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,6 +45,16 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>dsGiaoDich.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="dsKhachHang.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>dsKhachHang.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="dsLoaiThe.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>dsLoaiThe.xsd</DependentUpon>
     </Compile>
     <Compile Update="My Project\Application.Designer.vb">
       <DesignTime>True</DesignTime>
@@ -70,6 +84,14 @@
     <None Update="dsGiaoDich.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>dsGiaoDich.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="dsKhachHang.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsKhachHang.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="dsLoaiThe.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLoaiThe.Designer.vb</LastGenOutput>
     </None>
     <None Update="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>

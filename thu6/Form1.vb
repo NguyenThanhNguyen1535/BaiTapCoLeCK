@@ -1,31 +1,7 @@
 ﻿Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        '==-----------------------------------------------------------------------==
-        ' Chỉnh Form1 hiển thị giữa màn hình
-        Me.StartPosition = FormStartPosition.CenterScreen
-
-        ' Tạm thời ẩn Form1 đi khi chưa đăng nhập
-        Me.Opacity = 0
-        Me.ShowInTaskbar = False
-
-        ' Gọi Form Đăng nhập lên
-        Dim frmLogin As New DangNhap() ' Thay đúng tên Form Đăng nhập của bạn
-        frmLogin.StartPosition = FormStartPosition.CenterScreen
-
-        ' Nếu đăng nhập thành công
-        If frmLogin.ShowDialog() = DialogResult.OK Then
-            ' Hiện lại Form1 rõ ràng và cho xuất hiện dưới thanh Taskbar
-            Me.Opacity = 1
-            Me.ShowInTaskbar = True
-        Else
-            ' Nếu tắt Form đăng nhập hoặc đăng nhập sai thì thoát hẳn chương trình
-            Application.Exit()
-        End If
-        '==-----------------------------------------------------------------------==
-
-
-
+        GroupBox1.BackColor = Color.Transparent
         ' Chỉnh Form1 hiển thị giữa màn hình khi vừa mở phần mềm
         Me.StartPosition = FormStartPosition.CenterScreen
     End Sub
@@ -71,12 +47,32 @@
         Dim frm As New TimKiem()
         frm.Show()
     End Sub
-    Private Sub btnBaoCaoDoanhThu_Click(sender As Object, e As EventArgs) Handles btnBaoCaoDoanhThu.Click
-        Dim frm As New BaoCaoDoanhThu()
+
+    Private Sub btnTimKiemInThongTinKhachHang_Click(sender As Object, e As EventArgs) Handles btnTimKiemInThongTinKhachHang.Click
+        Dim frm As New TimKiemVaXemThongTinKhachHang
         frm.Show()
     End Sub
 
-    Private Sub GroupBox2_Enter(sender As Object, e As EventArgs) Handles GroupBox2.Enter
-
+    Private Sub btnTimKiemInThongTinLoaiThe_Click(sender As Object, e As EventArgs) Handles btnTimKiemInThongTinLoaiThe.Click
+        Dim frm As New TimKiemVaXemThongTinThe
+        frm.Show()
     End Sub
+    Private Sub btnBaoCaoDoanhThu_Click(sender As Object, e As EventArgs) Handles btnBaoCaoDoanhThu.Click
+        Dim frm As New BaoCaoDoanhThu
+        frm.Show()
+    End Sub
+
+
+
+    Private Sub TìmKiếmKháchHàngToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TìmKiếmKháchHàngToolStripMenuItem.Click
+        Dim frm As New TimKiemVaXemThongTinKhachHang()
+        frm.Show()
+    End Sub
+
+    Private Sub TìmKiếmThẻToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TìmKiếmThẻToolStripMenuItem.Click
+        Dim frm As New TimKiemVaXemThongTinThe()
+        frm.Show()
+    End Sub
+
+
 End Class

@@ -140,4 +140,33 @@ Public Class LoaiTheRepository
         Return DatabaseConnection.ExecuteQuery(query, params)
     End Function
 
+    '  TÌM KIẾM KẾT HỢP NHIỀU ĐIỀU KIỆN
+    Public Function AdvancedSearch(maLoai As String, tenNhaMang As String, menhGia As Decimal?, trangThai As Integer?) As DataTable
+        Dim query As String = "SELECT MaLoai, TenNhaMang, MenhGia, " &
+                           "CASE WHEN TrangThai = 1 THEN N'Hoạt động' ELSE N'Đã ẩn' END AS TrangThai " &
+                           "FROM LoaiThe WHERE 1=1 "
+        Dim danhSachThamSo As New List(Of SqlParameter)()
+
+        If Not String.IsNullOrEmpty(maLoai) Then
+            query &= "AND MaLoai LIKE @MaLoai "
+            danhSachThamSo.Add(New SqlParameter("@MaLoai", "%" & maLoai.Trim() & "%"))
+        End If
+
+        If Not String.IsNullOrEmpty(tenNhaMang) Then
+            query &= "AND TenNhaMang LIKE @TenNhaMang "
+            danhSachThamSo.Add(New SqlParameter("@TenNhaMang", "%" & tenNhaMang.Trim() & "%"))
+        End If
+
+        If menhGia.HasValue Then
+            query &= "AND MenhGia = @MenhGia "
+            danhSachThamSo.Add(New SqlParameter("@MenhGia", menhGia.Value))
+        End If
+
+        If trangThai.HasValue Then
+            query &= "AND TrangThai = @TrangThai "
+            danhSachThamSo.Add(New SqlParameter("@TrangThai", trangThai.Value))
+        End If
+
+        Return DatabaseConnection.GetData(query, danhSachThamSo.ToArray())
+    End Function
 End Class

@@ -265,7 +265,7 @@ Partial Class TimKiem
         Font = New Font("Times New Roman", 12F, FontStyle.Bold)
         Margin = New Padding(5, 3, 5, 3)
         Name = "TimKiem"
-        Text = "NguyenThanhNguyen"
+        Text = "NguyenThanhNguyen_31_Nhom11"
         CType(dgvLichSu, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

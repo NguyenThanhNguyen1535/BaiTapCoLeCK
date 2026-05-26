@@ -322,7 +322,7 @@ Partial Class Quanligiaodich
         Controls.Add(btnThem)
         Controls.Add(Label5)
         Name = "Quanligiaodich"
-        Text = "NguyenThanhNguyen"
+        Text = "NguyenThanhNguyen_31_Nhom11"
         CType(dgvGiaoDich, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

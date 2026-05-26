@@ -124,4 +124,7 @@ D:\Ai\thu6\bin\Debug\net10.0-windows\zh-Hant\System.ServiceModel.Primitives.reso
 D:\Ai\thu6\obj\Debug\net10.0-windows\thu6.FormInGiaoDich.resources
 D:\Ai\thu6\obj\Debug\net10.0-windows\thu6.FormInDoanhThu.resources
 D:\Ai\thu6\obj\Debug\net10.0-windows\thu6.Resources.resources
-D:\Ai\thu6\obj\Debug\net10.0-windows\thu6.DangNhap.resources
+D:\Ai\thu6\obj\Debug\net10.0-windows\thu6.TimKiemVaXemThongTinKhachHang.resources
+D:\Ai\thu6\obj\Debug\net10.0-windows\thu6.TimKiemVaXemThongTinThe.resources
+D:\Ai\thu6\obj\Debug\net10.0-windows\thu6.FormInThongTinKhachHang.resources
+D:\Ai\thu6\obj\Debug\net10.0-windows\thu6.FormInThongTinLoaiThe.resources

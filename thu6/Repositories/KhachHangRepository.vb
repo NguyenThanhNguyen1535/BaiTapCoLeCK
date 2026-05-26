@@ -116,4 +116,29 @@ Public Class KhachHangRepository
             Return False
         End Try
     End Function
+    'Tìm kiếm kết hợp nhiều điều kiện khách hàng
+    Public Function AdvancedSearch(maKH As String, hoTen As String, soDienThoai As String, trangThai As Integer?) As DataTable
+        Dim query As String = "SELECT MaKH, HoTen, SoDienThoai, SoDu, " &
+                              "CASE WHEN TrangThai = 1 THEN N'Hoạt động' ELSE N'Bị khóa' END AS TrangThai " &
+                              "FROM KhachHang WHERE 1=1 "
+
+        Dim danhSachThamSo As New List(Of SqlParameter)()
+        If Not String.IsNullOrEmpty(maKH) Then
+            query &= "AND MaKH LIKE @MaKH "
+            danhSachThamSo.Add(New SqlParameter("@MaKH", "%" & maKH.Trim() & "%"))
+        End If
+        If Not String.IsNullOrEmpty(hoTen) Then
+            query &= "AND HoTen LIKE @HoTen "
+            danhSachThamSo.Add(New SqlParameter("@HoTen", "%" & hoTen.Trim() & "%"))
+        End If
+        If Not String.IsNullOrEmpty(soDienThoai) Then
+            query &= "AND SoDienThoai LIKE @SoDienThoai "
+            danhSachThamSo.Add(New SqlParameter("@SoDienThoai", "%" & soDienThoai.Trim() & "%"))
+        End If
+        If trangThai.HasValue Then
+            query &= "AND TrangThai = @TrangThai "
+            danhSachThamSo.Add(New SqlParameter("@TrangThai", trangThai.Value))
+        End If
+        Return DatabaseConnection.GetData(query, danhSachThamSo.ToArray())
+    End Function
 End Class

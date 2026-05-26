@@ -272,7 +272,7 @@ Partial Class Quanlikhachhang
         Controls.Add(btnThem)
         Controls.Add(Label5)
         Name = "Quanlikhachhang"
-        Text = "NguyenThanhNguyen"
+        Text = "NguyenThanhNguyen_31_Nhom11"
         CType(dgvKhachHang, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

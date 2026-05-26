@@ -2,11 +2,8 @@
 Imports Microsoft.Data.SqlClient
 
 Public Class DatabaseConnection
-    'Private Shared connectionString As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" & AppDomain.CurrentDomain.BaseDirectory & "Quanlitiendienthoai3.mdf;Integrated Security=True"
-
-
-    Private Shared connectionString As String = "Data Source=localhost;Initial Catalog=Quanlitiendienthoai3;Integrated Security=True;TrustServerCertificate=True"
-
+    Private Shared connectionString As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" & AppDomain.CurrentDomain.BaseDirectory & "Quanlitiendienthoai3.mdf;Integrated Security=True"
+    'Private Shared connectionString As String = "Server=localhost;Database=Quanlitiendienthoai3;Trusted_Connection=True;TrustServerCertificate=True;"
     Public Shared Function GetConnection() As SqlConnection
         Return New SqlConnection(connectionString)
     End Function

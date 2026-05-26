@@ -39,7 +39,7 @@ Partial Class FormInGiaoDich
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Name = "FormInGiaoDich"
-        Text = "FormInGiaoDich"
+        Text = "NguyenThanhNguyen_31_Nhom11"
         ResumeLayout(False)
     End Sub
 

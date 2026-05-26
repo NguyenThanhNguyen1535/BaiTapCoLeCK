@@ -32,12 +32,13 @@ Partial Class Form1
         QuảnLíGiaoDịchToolStripMenuItem = New ToolStripMenuItem()
         TìmKiếmToolStripMenuItem = New ToolStripMenuItem()
         TìmKiếmGiaoDịchToolStripMenuItem = New ToolStripMenuItem()
+        TìmKiếmKháchHàngToolStripMenuItem = New ToolStripMenuItem()
+        TìmKiếmThẻToolStripMenuItem = New ToolStripMenuItem()
         BáoCáoToolStripMenuItem = New ToolStripMenuItem()
         InẤnBáoCáoToolStripMenuItem = New ToolStripMenuItem()
         GroupBox1 = New GroupBox()
-        GroupBox2 = New GroupBox()
-        Label2 = New Label()
-        Label1 = New Label()
+        btnTimKiemInThongTinKhachHang = New Button()
+        btnTimKiemInThongTinLoaiThe = New Button()
         btnBaoCaoDoanhThu = New Button()
         btnTimKiemInAnLichSu = New Button()
         btnQuanLiGiaoDich = New Button()
@@ -45,7 +46,6 @@ Partial Class Form1
         btnQuanLiKhachHang = New Button()
         MenuStrip1.SuspendLayout()
         GroupBox1.SuspendLayout()
-        GroupBox2.SuspendLayout()
         SuspendLayout()
         ' 
         ' MenuStrip1
@@ -104,7 +104,7 @@ Partial Class Form1
         ' 
         ' TìmKiếmToolStripMenuItem
         ' 
-        TìmKiếmToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {TìmKiếmGiaoDịchToolStripMenuItem})
+        TìmKiếmToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {TìmKiếmGiaoDịchToolStripMenuItem, TìmKiếmKháchHàngToolStripMenuItem, TìmKiếmThẻToolStripMenuItem})
         TìmKiếmToolStripMenuItem.Name = "TìmKiếmToolStripMenuItem"
         TìmKiếmToolStripMenuItem.Size = New Size(100, 29)
         TìmKiếmToolStripMenuItem.Text = "Tìm kiếm"
@@ -112,8 +112,20 @@ Partial Class Form1
         ' TìmKiếmGiaoDịchToolStripMenuItem
         ' 
         TìmKiếmGiaoDịchToolStripMenuItem.Name = "TìmKiếmGiaoDịchToolStripMenuItem"
-        TìmKiếmGiaoDịchToolStripMenuItem.Size = New Size(264, 34)
+        TìmKiếmGiaoDịchToolStripMenuItem.Size = New Size(282, 34)
         TìmKiếmGiaoDịchToolStripMenuItem.Text = "Tìm kiếm giao dịch"
+        ' 
+        ' TìmKiếmKháchHàngToolStripMenuItem
+        ' 
+        TìmKiếmKháchHàngToolStripMenuItem.Name = "TìmKiếmKháchHàngToolStripMenuItem"
+        TìmKiếmKháchHàngToolStripMenuItem.Size = New Size(282, 34)
+        TìmKiếmKháchHàngToolStripMenuItem.Text = "Tìm kiếm khách hàng"
+        ' 
+        ' TìmKiếmThẻToolStripMenuItem
+        ' 
+        TìmKiếmThẻToolStripMenuItem.Name = "TìmKiếmThẻToolStripMenuItem"
+        TìmKiếmThẻToolStripMenuItem.Size = New Size(282, 34)
+        TìmKiếmThẻToolStripMenuItem.Text = "Tìm kiếm thẻ"
         ' 
         ' BáoCáoToolStripMenuItem
         ' 
@@ -131,7 +143,8 @@ Partial Class Form1
         ' GroupBox1
         ' 
         GroupBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        GroupBox1.Controls.Add(GroupBox2)
+        GroupBox1.Controls.Add(btnTimKiemInThongTinKhachHang)
+        GroupBox1.Controls.Add(btnTimKiemInThongTinLoaiThe)
         GroupBox1.Controls.Add(btnBaoCaoDoanhThu)
         GroupBox1.Controls.Add(btnTimKiemInAnLichSu)
         GroupBox1.Controls.Add(btnQuanLiGiaoDich)
@@ -145,42 +158,34 @@ Partial Class Form1
         GroupBox1.TabStop = False
         GroupBox1.Text = "Chức năng"
         ' 
-        ' GroupBox2
+        ' btnTimKiemInThongTinKhachHang
         ' 
-        GroupBox2.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
-        GroupBox2.Controls.Add(Label2)
-        GroupBox2.Controls.Add(Label1)
-        GroupBox2.Font = New Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        GroupBox2.Location = New Point(593, 439)
-        GroupBox2.Name = "GroupBox2"
-        GroupBox2.Size = New Size(443, 150)
-        GroupBox2.TabIndex = 5
-        GroupBox2.TabStop = False
+        btnTimKiemInThongTinKhachHang.Anchor = AnchorStyles.Top
+        btnTimKiemInThongTinKhachHang.BackColor = Color.LightSkyBlue
+        btnTimKiemInThongTinKhachHang.Location = New Point(575, 202)
+        btnTimKiemInThongTinKhachHang.Name = "btnTimKiemInThongTinKhachHang"
+        btnTimKiemInThongTinKhachHang.Size = New Size(306, 72)
+        btnTimKiemInThongTinKhachHang.TabIndex = 7
+        btnTimKiemInThongTinKhachHang.Text = "Tìm kiếm/xem thông in và in thông tin khách hàng"
+        btnTimKiemInThongTinKhachHang.UseVisualStyleBackColor = False
         ' 
-        ' Label2
+        ' btnTimKiemInThongTinLoaiThe
         ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(13, 95)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(361, 32)
-        Label2.TabIndex = 1
-        Label2.Text = "Lớp học phần: 225TLTTQ04"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Location = New Point(13, 38)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(422, 32)
-        Label1.TabIndex = 0
-        Label1.Text = "Họ và tên: Nguyễn Thành Nguyên"
+        btnTimKiemInThongTinLoaiThe.Anchor = AnchorStyles.Top
+        btnTimKiemInThongTinLoaiThe.BackColor = Color.Bisque
+        btnTimKiemInThongTinLoaiThe.Location = New Point(575, 327)
+        btnTimKiemInThongTinLoaiThe.Name = "btnTimKiemInThongTinLoaiThe"
+        btnTimKiemInThongTinLoaiThe.Size = New Size(306, 72)
+        btnTimKiemInThongTinLoaiThe.TabIndex = 6
+        btnTimKiemInThongTinLoaiThe.Text = "Tìm kiếm/xem thông in và in thông tin loại thẻ"
+        btnTimKiemInThongTinLoaiThe.UseVisualStyleBackColor = False
         ' 
         ' btnBaoCaoDoanhThu
         ' 
         btnBaoCaoDoanhThu.AccessibleRole = AccessibleRole.None
         btnBaoCaoDoanhThu.Anchor = AnchorStyles.Top
         btnBaoCaoDoanhThu.BackColor = Color.Magenta
-        btnBaoCaoDoanhThu.Location = New Point(383, 517)
+        btnBaoCaoDoanhThu.Location = New Point(406, 478)
         btnBaoCaoDoanhThu.Name = "btnBaoCaoDoanhThu"
         btnBaoCaoDoanhThu.Size = New Size(306, 72)
         btnBaoCaoDoanhThu.TabIndex = 4
@@ -191,7 +196,7 @@ Partial Class Form1
         ' 
         btnTimKiemInAnLichSu.Anchor = AnchorStyles.Top
         btnTimKiemInAnLichSu.BackColor = Color.Beige
-        btnTimKiemInAnLichSu.Location = New Point(383, 395)
+        btnTimKiemInAnLichSu.Location = New Point(575, 73)
         btnTimKiemInAnLichSu.Name = "btnTimKiemInAnLichSu"
         btnTimKiemInAnLichSu.Size = New Size(306, 72)
         btnTimKiemInAnLichSu.TabIndex = 3
@@ -202,7 +207,7 @@ Partial Class Form1
         ' 
         btnQuanLiGiaoDich.Anchor = AnchorStyles.Top
         btnQuanLiGiaoDich.BackColor = Color.MediumSlateBlue
-        btnQuanLiGiaoDich.Location = New Point(383, 280)
+        btnQuanLiGiaoDich.Location = New Point(154, 327)
         btnQuanLiGiaoDich.Name = "btnQuanLiGiaoDich"
         btnQuanLiGiaoDich.Size = New Size(306, 72)
         btnQuanLiGiaoDich.TabIndex = 2
@@ -213,7 +218,7 @@ Partial Class Form1
         ' 
         btnQuanLiLoaiThe.Anchor = AnchorStyles.Top
         btnQuanLiLoaiThe.BackColor = Color.LightCoral
-        btnQuanLiLoaiThe.Location = New Point(383, 168)
+        btnQuanLiLoaiThe.Location = New Point(154, 202)
         btnQuanLiLoaiThe.Name = "btnQuanLiLoaiThe"
         btnQuanLiLoaiThe.Size = New Size(306, 72)
         btnQuanLiLoaiThe.TabIndex = 1
@@ -224,7 +229,7 @@ Partial Class Form1
         ' 
         btnQuanLiKhachHang.Anchor = AnchorStyles.Top
         btnQuanLiKhachHang.BackColor = Color.PaleGreen
-        btnQuanLiKhachHang.Location = New Point(383, 56)
+        btnQuanLiKhachHang.Location = New Point(154, 73)
         btnQuanLiKhachHang.Name = "btnQuanLiKhachHang"
         btnQuanLiKhachHang.Size = New Size(306, 72)
         btnQuanLiKhachHang.TabIndex = 0
@@ -242,12 +247,10 @@ Partial Class Form1
         Controls.Add(MenuStrip1)
         MainMenuStrip = MenuStrip1
         Name = "Form1"
-        Text = "NguyenThanhNguyen"
+        Text = "NguyenThanhNguyen_31_Nhom11"
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()
         GroupBox1.ResumeLayout(False)
-        GroupBox2.ResumeLayout(False)
-        GroupBox2.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -270,8 +273,9 @@ Partial Class Form1
     Friend WithEvents btnQuanLiKhachHang As Button
     Friend WithEvents btnBaoCaoDoanhThu As Button
     Friend WithEvents btnTimKiemInAnLichSu As Button
-    Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents TìmKiếmKháchHàngToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TìmKiếmThẻToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents btnTimKiemInThongTinLoaiThe As Button
+    Friend WithEvents btnTimKiemInThongTinKhachHang As Button
 
 End Class

@@ -5,16 +5,28 @@
     {
       "AbsoluteMoniker": "D:0:0:{7DFAF7FF-E45D-BCFD-1BF3-78F3BF1F0A91}|thu6.vbproj|d:\\ai\\thu6\\databaseconnection.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{7DFAF7FF-E45D-BCFD-1BF3-78F3BF1F0A91}|thu6.vbproj|solutionrelative:databaseconnection.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFAF7FF-E45D-BCFD-1BF3-78F3BF1F0A91}|thu6.vbproj|d:\\ai\\thu6\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{7DFAF7FF-E45D-BCFD-1BF3-78F3BF1F0A91}|thu6.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFAF7FF-E45D-BCFD-1BF3-78F3BF1F0A91}|thu6.vbproj|d:\\ai\\thu6\\timkiemvaxemthongtinkhachhang.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{7DFAF7FF-E45D-BCFD-1BF3-78F3BF1F0A91}|thu6.vbproj|solutionrelative:timkiemvaxemthongtinkhachhang.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFAF7FF-E45D-BCFD-1BF3-78F3BF1F0A91}|thu6.vbproj|d:\\ai\\thu6\\formindoanhthu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{7DFAF7FF-E45D-BCFD-1BF3-78F3BF1F0A91}|thu6.vbproj|solutionrelative:formindoanhthu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,6 +37,10 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DatabaseConnection.vb",
@@ -32,10 +48,46 @@
               "RelativeDocumentMoniker": "DatabaseConnection.vb",
               "ToolTip": "D:\\Ai\\thu6\\DatabaseConnection.vb",
               "RelativeToolTip": "DatabaseConnection.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-05-25T02:50:36.114Z",
+              "WhenOpened": "2026-05-26T15:57:32.761Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TimKiemVaXemThongTinKhachHang.vb [Design]",
+              "DocumentMoniker": "D:\\Ai\\thu6\\TimKiemVaXemThongTinKhachHang.vb",
+              "RelativeDocumentMoniker": "TimKiemVaXemThongTinKhachHang.vb",
+              "ToolTip": "D:\\Ai\\thu6\\TimKiemVaXemThongTinKhachHang.vb [Design]",
+              "RelativeToolTip": "TimKiemVaXemThongTinKhachHang.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-26T15:51:19.864Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormInDoanhThu.vb [Design]",
+              "DocumentMoniker": "D:\\Ai\\thu6\\FormInDoanhThu.vb",
+              "RelativeDocumentMoniker": "FormInDoanhThu.vb",
+              "ToolTip": "D:\\Ai\\thu6\\FormInDoanhThu.vb [Design]",
+              "RelativeToolTip": "FormInDoanhThu.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-26T15:51:15.862Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "D:\\Ai\\thu6\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "D:\\Ai\\thu6\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-26T15:49:05.169Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
